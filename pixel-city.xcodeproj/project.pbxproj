@@ -13,6 +13,7 @@
 		557C160C1F6B4659006C5647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557C160A1F6B4659006C5647 /* Main.storyboard */; };
 		557C160E1F6B4659006C5647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557C160D1F6B4659006C5647 /* Assets.xcassets */; };
 		557C16111F6B4659006C5647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557C160F1F6B4659006C5647 /* LaunchScreen.storyboard */; };
+		557C161D1F6BAF62006C5647 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C161C1F6BAF62006C5647 /* DroppablePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		557C160D1F6B4659006C5647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557C16101F6B4659006C5647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557C16121F6B4659006C5647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557C161C1F6BAF62006C5647 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		81E400F0B1A5E519F76BB833 /* Pods-pixel-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.debug.xcconfig"; sourceTree = "<group>"; };
 		99141BCFC220EAC42A8ADAA3 /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		557C16191F6B468A006C5647 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				557C161C1F6BAF62006C5647 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				557C16091F6B4659006C5647 /* MapVC.swift in Sources */,
+				557C161D1F6BAF62006C5647 /* DroppablePin.swift in Sources */,
 				557C16071F6B4659006C5647 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
