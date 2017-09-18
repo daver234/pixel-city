@@ -16,6 +16,7 @@
 		557C161D1F6BAF62006C5647 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C161C1F6BAF62006C5647 /* DroppablePin.swift */; };
 		557C161F1F6CFAE7006C5647 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C161E1F6CFAE7006C5647 /* PhotoCell.swift */; };
 		557C16211F6E36BB006C5647 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C16201F6E36BB006C5647 /* Constants.swift */; };
+		557C16231F6F85EA006C5647 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C16221F6F85EA006C5647 /* PopVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		557C161C1F6BAF62006C5647 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		557C161E1F6CFAE7006C5647 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		557C16201F6E36BB006C5647 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		557C16221F6F85EA006C5647 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		81E400F0B1A5E519F76BB833 /* Pods-pixel-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.debug.xcconfig"; sourceTree = "<group>"; };
 		99141BCFC220EAC42A8ADAA3 /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				557C16081F6B4659006C5647 /* MapVC.swift */,
+				557C16221F6F85EA006C5647 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557C16231F6F85EA006C5647 /* PopVC.swift in Sources */,
 				557C16211F6E36BB006C5647 /* Constants.swift in Sources */,
 				557C161F1F6CFAE7006C5647 /* PhotoCell.swift in Sources */,
 				557C16091F6B4659006C5647 /* MapVC.swift in Sources */,

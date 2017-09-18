@@ -32,7 +32,6 @@
                                         <rect key="frame" x="32" y="24" width="311" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="cY3-7Y-c11"/>
-                                            <constraint firstAttribute="width" constant="311" id="na3-n7-Oqh"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -91,6 +90,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+        <!--PopVC-->
+        <scene sceneID="mH0-va-He7">
+            <objects>
+                <viewController storyboardIdentifier="PopVC" id="NNA-nE-Vya" customClass="PopVC" customModule="pixel_city" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="idw-wl-nc8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G8h-lX-yxV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4iQ-Rv-QaB">
+                                <rect key="frame" x="88" y="622" width="200" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double-tap to dismiss" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbh-Tf-ZX6">
+                                        <rect key="frame" x="14" y="1" width="172.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0Hm-4T-WHu"/>
+                                    <constraint firstAttribute="height" constant="25" id="Lua-Wp-jdV"/>
+                                    <constraint firstItem="tbh-Tf-ZX6" firstAttribute="centerX" secondItem="4iQ-Rv-QaB" secondAttribute="centerX" id="g4k-qh-mOj"/>
+                                    <constraint firstItem="tbh-Tf-ZX6" firstAttribute="centerY" secondItem="4iQ-Rv-QaB" secondAttribute="centerY" id="nqd-i2-Zpp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4iQ-Rv-QaB" secondAttribute="bottom" constant="20" symbolic="YES" id="FIS-d1-ZmW"/>
+                            <constraint firstItem="G8h-lX-yxV" firstAttribute="bottom" secondItem="vr4-H7-VMS" secondAttribute="bottom" id="US9-PX-Vjr"/>
+                            <constraint firstItem="G8h-lX-yxV" firstAttribute="leading" secondItem="vr4-H7-VMS" secondAttribute="leading" id="WXY-p7-Hoa"/>
+                            <constraint firstItem="G8h-lX-yxV" firstAttribute="top" secondItem="idw-wl-nc8" secondAttribute="top" id="brr-2L-kgy"/>
+                            <constraint firstItem="G8h-lX-yxV" firstAttribute="trailing" secondItem="vr4-H7-VMS" secondAttribute="trailing" id="lwr-C1-wBw"/>
+                            <constraint firstItem="4iQ-Rv-QaB" firstAttribute="centerX" secondItem="idw-wl-nc8" secondAttribute="centerX" id="sRt-XW-Llr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vr4-H7-VMS"/>
+                    </view>
+                    <connections>
+                        <outlet property="popImageView" destination="G8h-lX-yxV" id="Dos-zj-dYz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8MI-Ju-rDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807.20000000000005" y="113.79310344827587"/>
         </scene>
     </scenes>
     <resources>
